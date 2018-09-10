@@ -175,9 +175,9 @@ class NavBar extends Component {
         <Divider />
           <MenuItem onClick={this.handleClickHome.bind()}>Home</MenuItem>
         <Divider />
-          <MenuItem onClick={this.handleClickModels.bind()}>Our Work</MenuItem>
+          <MenuItem onClick={this.handleClickModels.bind()}>Models</MenuItem>
         <Divider />
-          <MenuItem onClick={this.handleClickWorkshops.bind()}>About</MenuItem>
+          <MenuItem onClick={this.handleClickWorkshops.bind()}>Workshops</MenuItem>
                     
 
         <Divider />
