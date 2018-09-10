@@ -14,7 +14,8 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
-import uniclogo from './logoBanner.png'
+import uniclogo from './uniclogo.png'
+import logoBanner from './logoBanner.png'
 import facebook from './facebook-box.svg';
 import instagram from './instagram.svg';
 import phone from './phone.svg';
@@ -187,7 +188,7 @@ class NavBar extends Component {
           <IconButton href="https://www.instagram.com/unicbeauty_ma_/" color="inherit"><img src={instagram} alt="instagram" height="28" width="28" /></IconButton>
         </MenuItem>  
         <Divider />
-        <img href="#" src={uniclogo} alt="UnicBeautyLogo" className={classes.uniclogo} height="45" width="45" />
+        <img href="#" src={uniclogo} alt="UnicBeautyLogo" className={classes.uniclogo} height="57" width="57" />
 
       </Drawer>
     );
@@ -207,7 +208,7 @@ class NavBar extends Component {
                   </IconButton>
                 </Hidden>
 
-                <img src={uniclogo} style={{cursor: 'pointer'}} alt="UnicBeautyLogo" height="35" width="155" />
+                <img src={logoBanner} style={{cursor: 'pointer'}} alt="UnicBeautyLogo" height="35" width="155" />
                 <Typography variant="title" color="inherit" style={{ flex: 1 }}>
                 </Typography>
                   

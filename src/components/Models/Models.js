@@ -28,6 +28,12 @@ const Graphic = styled.img`
   object-fit: cover;
 `;
 
+  const link = {
+   color:'black',
+   textDecoration: 'none', 
+   backgroundColor: 'none',
+  }
+
 class InstaPics extends Component {
   constructor(props) {
     super(props);
@@ -62,7 +68,9 @@ class InstaPics extends Component {
         <Wrapper>
           <Container>
           <Heading heavy as="h1" color="black" style={{textAlign: 'center'}} fontSize={[5, 6]} mb={7}>
-            <FormattedMessage id="models.title" />
+            <a href="https://www.instagram.com/explore/tags/unicbeautygirl/" style={link}>
+              <FormattedMessage id="models.title" />
+            </a>
           </Heading>
           <Flex>
               <Box width={1/3} px={1}>

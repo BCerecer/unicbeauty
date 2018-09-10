@@ -22,6 +22,7 @@ export default {
   },
   models: {
     title: '#unicbeautygirl',
+    link: 'https://www.instagram.com/explore/tags/unicbeautygirl/',
   },
   workshops: {
     title: 'Workshops',

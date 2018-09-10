@@ -67,7 +67,6 @@ const GraphicTop = styled.img`
 `;
   const blockdiv = {
     position: 'relative',
-
   }
 const GraphicItem = ({ src }) => (
   <StyledBox p={3}>
