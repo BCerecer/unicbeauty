@@ -29,15 +29,9 @@ const StyledBox = styled(Box)`
   position: relative;
 `;
 
-const ImgWrap = styled.div`
-  width: 100%;
-  background: url(${props => props.img}) 0 0 no-repeat;
-  background-size: cover;
-`;
-
 const Intro = styled.div`
   padding: ${rem(SPACE[5])} ${rem(SPACE[7])};
-  margin: 0 -${rem(SPACE[7])};
+  margin: 0 -${rem(SPACE[5])};
   text-align: center;
   
   ${media.sm.css`
@@ -56,22 +50,15 @@ const Graphic = styled.img`
   height: auto;
 `;
 
-const GraphicItem = ({ src }) => (
-  <StyledBox p={3}>
-    <ImgWrap img={src} />
-  </StyledBox>
-);
-
-GraphicItem.propTypes = {
-  src: PropTypes.string.isRequired,
-};
-
+  const blockdiv = {
+    margin: '20px;',
+  }
 
 const Content = ({ imgMain, imgTop }) => (
   <Flex wrap row px={0} mx={-5} pt={[0, 0, 9]}>
     <Box width={[1, 2 / 3, 2 / 3]} my={[3, -3, -3]}>
       <Intro>
-        <Paragraph>
+        <Paragraph style={blockdiv}>
           <FormattedMessage id="workshops.description" />
         </Paragraph>
        </Intro>

@@ -25,19 +25,9 @@ const MainImageBox = styled(Box)`
   overflow: hidden;
 `;
 
-const StyledBox = styled(Box)`
-  position: relative;
-`;
-
-const ImgWrap = styled.div`
-  width: 100%;
-  background: url(${props => props.img}) 0 0 no-repeat;
-  background-size: cover;
-`;
-
 const Intro = styled.div`
   padding: ${rem(SPACE[5])} ${rem(SPACE[7])};
-  margin: 0 -${rem(SPACE[7])};
+  margin: 0 -${rem(SPACE[5])};
   text-align: center;
   
   ${media.sm.css`
@@ -68,15 +58,6 @@ const GraphicTop = styled.img`
   const blockdiv = {
     position: 'relative',
   }
-const GraphicItem = ({ src }) => (
-  <StyledBox p={3}>
-    <ImgWrap img={src} />
-  </StyledBox>
-);
-
-GraphicItem.propTypes = {
-  src: PropTypes.string.isRequired,
-};
 
 const Content = ({ imgMain, imgTop }) => (
   <Flex wrap row px={0} mx={-5} pt={[0, 0, 9]}>
