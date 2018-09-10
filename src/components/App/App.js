@@ -10,7 +10,6 @@ import Models from '../Models';
 import Workshops from '../Workshops';
 import * as locales from '../../locales';
 
-require('dotenv').config();
 
 class App extends Component {
   render () {
