@@ -26,6 +26,7 @@ class App extends Component {
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fba1c1" />
             <meta name="apple-mobile-web-app-title" content="UnicBeauty" />
             <meta name="application-name" content="UnicBeauty" />
+            <meta name="google-site-verification" content="ebvciezxp70dqe2rImRYH8PlhrotjDx0qHrVBxQ8ovU" />
             <meta name="theme-color" content="#ffffff" />
           </Helmet>
 
