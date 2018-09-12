@@ -27,7 +27,7 @@ class App extends Component {
             <meta name="apple-mobile-web-app-title" content="UnicBeauty" />
             <meta name="application-name" content="UnicBeauty" />
             <meta name="google-site-verification" content="ebvciezxp70dqe2rImRYH8PlhrotjDx0qHrVBxQ8ovU" />
-            <meta name="theme-color" content="#ffffff" />
+            <meta name="theme-color" content="#fba1c1" />
           </Helmet>
 
         	<NavBar 
