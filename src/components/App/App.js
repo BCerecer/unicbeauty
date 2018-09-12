@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <IntlProvider locale={'en'} messages={flatten(locales['en'])}>
         <div>
-          <Helmet titleTemplate="%s &middot; UnicBeauty">
+          <Helmet titleTemplate="%s &middot; UnicBeauty - Best Makeup Artist in San Diego">
             <html lang={'en'} />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
