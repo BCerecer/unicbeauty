@@ -9,7 +9,7 @@ https://www.unicbeautyma.com
 ## Install
 
 Install modules:
-### npm install
+###  `npm install`
 
 Start on localhost:
-### npm start
+###  `npm start`
